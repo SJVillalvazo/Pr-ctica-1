@@ -1,0 +1,48 @@
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #222;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    background-color: #444;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+
+/* Main */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 25%;
+}
+
+#ts {
+  width: 1250px;
+  height: 700px;
+}
